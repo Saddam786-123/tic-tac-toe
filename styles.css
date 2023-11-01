@@ -1,0 +1,40 @@
+*body {
+    background-color: rgb(215, 128, 15);
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#tic-tac-toe-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    width: 306px;
+    background-color: rgb(81, 228, 179);
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    border: 2px solid #000;
+}
+
+#message {
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(190, 135, 242);
+}
